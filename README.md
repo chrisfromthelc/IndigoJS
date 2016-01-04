@@ -9,4 +9,4 @@ To get started, simply clone/download the package, and edit the settings in the 
 
 This interface does not (yet) make use of any authentication, so it should only be used on your own internal network, or as a starting point for your own implementation. This is a learning project for me; code comments are practically non-existant, and if something's broken, I hope you're able to fix it! :D
 
-In the almost certain case that you're a better developer than me, open up a pull request; IndigoJS will only get better with more contributors.
+In the almost certain case that you're a better developer than me, open up a pull request! IndigoJS will only get better with more contributors.

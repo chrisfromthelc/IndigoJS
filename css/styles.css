@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.unit {
+  margin: 10px 2.5%;
+  min-width: 200px;
+  width: 20%;
+}
+
+.lights .main {
+    align-content: space-around;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.devicestatus {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.power {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.devicestatus .label {
+    width: 6rem;
+}
+
+.devicestatus .status {
+    float: right;
+}
+
+.brightness {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.control {
+  display: flex;
+  justify-content: flex-start;
+}
+
+button {
+  padding: 5px;
+  font-size: 10px;
+  height: 10px;
+  width: 50px;
+}
